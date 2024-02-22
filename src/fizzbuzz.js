@@ -1,5 +1,5 @@
 function get_fizzbuzz(n) {
-  return "1";
+  return n+"";
 }
 
 export default get_fizzbuzz;
