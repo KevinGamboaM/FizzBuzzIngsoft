@@ -17,4 +17,7 @@ describe("FizzBuzz", () =>{
   it("Si genero el numero 5, la regla me genera buzz ejemplo: generar(5) => buzz", () => {
     expect(get_fizzbuzz(5)).toEqual("buzz");
   });
+  it("Si genero cualquier numero multiplo de 5, la regla me genera buzz ejemplo: generar(10) => buzz", () => {
+        expect(get_fizzbuzz(10)).toEqual("buzz");
+  });
 });
