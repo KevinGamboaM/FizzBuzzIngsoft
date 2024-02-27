@@ -23,4 +23,7 @@ describe("FizzBuzz", () =>{
   it("Si genero el numero 15, la regla me genera fizzbuzz ejemplo: generar(15) => fizzbuzz", () => {
     expect(get_fizzbuzz(15)).toEqual("fizzbuzz");
   });
+  it("Si genero cualquier numero multiplo de 3 y 5, la regla me genera fizzbuzz ejemplo: generar(30) => fizzbuzz", () => {
+    expect(get_fizzbuzz(30)).toEqual("fizzbuzz");
+  });
 });
